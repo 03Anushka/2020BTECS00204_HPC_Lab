@@ -8,7 +8,7 @@ int* c;
 a = malloc(sizeof(int) * N);
 c = malloc(sizeof(int) * N);
 int b = 10;
-omp_set_num_threads(4);
+omp_set_num_threads(8);
 for(int i=0; i<N; i++){
 a[i] = 0;
 }
